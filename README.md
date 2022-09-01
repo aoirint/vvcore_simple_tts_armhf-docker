@@ -11,6 +11,6 @@ docker run --rm -it --init --platform=linux/arm/v7 --entrypoint "" vvcore_simple
 mkdir -p ./work
 
 # 音声合成の実行
-time docker run --rm -it --init --platform=linux/arm/v7 -v "$PWD/work:/work" -w /work vvcore_simple_tts_armhf a
+time docker run --rm -it --init --platform=linux/arm/v7 -v "$PWD/work:/work" -w /work vvcore_simple_tts_armhf こんにちは
 ```
 
